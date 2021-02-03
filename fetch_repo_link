@@ -1,0 +1,1 @@
+sed "s/^remote: *\(.*my-branch\)$/\1/" pr_message | grep ^http.*my-branch$
